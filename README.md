@@ -105,3 +105,14 @@ A continuación se detallan los comandos `curl` solicitados para la verificació
 ### Otros endpoints (Opcionales)
 - **Obtener libro por ID:** `GET /api/libros/{id}`
 - **Modificar libro:** `PUT /api/libros/{id}` (Debes proveer un JSON completo con los datos modificados del libro).
+
+### Evidencia Fotográfica
+A continuación se muestran capturas de pantalla de la ejecución de los comandos `curl` y del archivo `requests.http` en IntelliJ IDEA, confirmando que los endpoints funcionan correctamente:
+
+![Evidencia de Crear Libro](VerificarEndPoint_1_CrearLibro.png)
+
+![Evidencia de Listar los libros](VerificarEndPoint_2_ListarLibros.png)
+
+![Evidencia de Buscar por palabra](VerificarEndPoint_3_BuscarPorPalabra.png)
+
+![Evidencia de Eliminar libro](VerificarEndPoint_4_EliminarPorID.png)
